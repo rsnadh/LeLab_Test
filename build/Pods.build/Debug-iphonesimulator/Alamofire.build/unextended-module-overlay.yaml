@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules"
+    'name': "/Users/mac/Desktop/lelabtest/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/mac/Desktop/UserDetails/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap",
+      'external-contents': "/Users/mac/Desktop/lelabtest/build/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap",
     }]
   }]
 }

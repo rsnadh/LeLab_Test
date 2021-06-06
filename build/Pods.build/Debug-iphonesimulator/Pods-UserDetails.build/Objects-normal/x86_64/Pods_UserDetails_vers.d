@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/mac/Desktop/UserDetails/build/Pods.build/Debug-iphonesimulator/Pods-UserDetails.build/DerivedSources/Pods_UserDetails_vers.c
+  /Users/mac/Desktop/lelabtest/build/Pods.build/Debug-iphonesimulator/Pods-UserDetails.build/DerivedSources/Pods_UserDetails_vers.c
