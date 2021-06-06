@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AddressModel" representedClassName="AddressModel" syncable="YES" codeGenerationType="class">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="street" optional="YES" attributeType="String"/>
+        <attribute name="suite" optional="YES" attributeType="String"/>
+        <attribute name="zipCode" optional="YES" attributeType="String"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LocationModel" inverseName="address" inverseEntity="LocationModel"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserModel" inverseName="address" inverseEntity="UserModel"/>
+    </entity>
+    <entity name="CompanyModel" representedClassName="CompanyModel" syncable="YES" codeGenerationType="class">
+        <attribute name="bs" optional="YES" attributeType="String"/>
+        <attribute name="catchPhrase" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserModel" inverseName="company" inverseEntity="UserModel"/>
+    </entity>
+    <entity name="LocationModel" representedClassName="LocationModel" syncable="YES" codeGenerationType="class">
+        <attribute name="lat" optional="YES" attributeType="String"/>
+        <attribute name="lng" optional="YES" attributeType="String"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AddressModel" inverseName="location" inverseEntity="AddressModel"/>
+    </entity>
+    <entity name="UserModel" representedClassName="UserModel" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="website" optional="YES" attributeType="String"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AddressModel" inverseName="user" inverseEntity="AddressModel"/>
+        <relationship name="company" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CompanyModel" inverseName="user" inverseEntity="CompanyModel"/>
+    </entity>
+    <elements>
+        <element name="UserModel" positionX="-63" positionY="-18" width="128" height="149"/>
+        <element name="AddressModel" positionX="-54" positionY="36" width="128" height="119"/>
+        <element name="CompanyModel" positionX="-36" positionY="54" width="128" height="89"/>
+        <element name="LocationModel" positionX="-18" positionY="72" width="128" height="74"/>
+    </elements>
+</model>
