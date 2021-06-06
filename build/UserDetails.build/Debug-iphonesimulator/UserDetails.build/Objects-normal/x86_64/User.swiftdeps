@@ -1,0 +1,527 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "User"
+- "Address"
+- "Company"
+- "Location"
+provides-nominal:
+- "11UserDetails0A0C"
+- "11UserDetails7AddressC"
+- "11UserDetails7CompanyC"
+- "11UserDetails8LocationC"
+provides-member:
+- ["11UserDetails0A0C", ""]
+- ["11UserDetails7AddressC", ""]
+- ["11UserDetails7CompanyC", ""]
+- ["11UserDetails8LocationC", ""]
+provides-dynamic-lookup:
+- "address"
+- "bs"
+- "catchPhrase"
+- "city"
+- "company"
+- "email"
+- "encode"
+- "geo"
+- "id"
+- "lat"
+- "lng"
+- "name"
+- "phone"
+- "street"
+- "suite"
+- "username"
+- "website"
+- "zipcode"
+depends-top-level:
+- "=="
+- "Address"
+- "AddressModel"
+- "AssignmentPrecedence"
+- "Codable"
+- "Company"
+- "CompanyModel"
+- !private "FloatLiteralType"
+- "Int32"
+- !private "IntegerLiteralType"
+- "Location"
+- "LocationModel"
+- "String"
+- !private "StringLiteralType"
+- "User"
+- "UserModel"
+- !private "~="
+depends-member:
+- ["11UserDetails7AddressC", "AddressModel"]
+- ["11UserDetails7AddressC", "CodingKeys"]
+- ["11UserDetails7AddressC", "Location"]
+- ["11UserDetails7AddressC", "String"]
+- ["11UserDetails7AddressC", ""]
+- ["11UserDetails7AddressC", "city"]
+- ["11UserDetails7AddressC", "deinit"]
+- ["11UserDetails7AddressC", "encode"]
+- ["11UserDetails7AddressC", "geo"]
+- ["11UserDetails7AddressC", "init"]
+- ["11UserDetails7AddressC", "street"]
+- ["11UserDetails7AddressC", "suite"]
+- ["11UserDetails7AddressC", "zipcode"]
+- !private ["11UserDetails12AddressModelC", "city"]
+- !private ["11UserDetails12AddressModelC", "location"]
+- !private ["11UserDetails12AddressModelC", "street"]
+- !private ["11UserDetails12AddressModelC", "suite"]
+- !private ["11UserDetails12AddressModelC", "zipCode"]
+- !private ["s7CVarArgP", "address"]
+- !private ["s7CVarArgP", "bs"]
+- !private ["s7CVarArgP", "catchPhrase"]
+- !private ["s7CVarArgP", "city"]
+- !private ["s7CVarArgP", "company"]
+- !private ["s7CVarArgP", "email"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "lat"]
+- !private ["s7CVarArgP", "lng"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "phone"]
+- !private ["s7CVarArgP", "street"]
+- !private ["s7CVarArgP", "suite"]
+- !private ["s7CVarArgP", "userName"]
+- !private ["s7CVarArgP", "website"]
+- !private ["s7CVarArgP", "zipCode"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["11UserDetails7CompanyC", "CodingKeys"]
+- ["11UserDetails7CompanyC", "CompanyModel"]
+- ["11UserDetails7CompanyC", "String"]
+- ["11UserDetails7CompanyC", ""]
+- ["11UserDetails7CompanyC", "bs"]
+- ["11UserDetails7CompanyC", "catchPhrase"]
+- ["11UserDetails7CompanyC", "deinit"]
+- ["11UserDetails7CompanyC", "encode"]
+- ["11UserDetails7CompanyC", "init"]
+- ["11UserDetails7CompanyC", "name"]
+- !private ["11UserDetails12CompanyModelC", "bs"]
+- !private ["11UserDetails12CompanyModelC", "catchPhrase"]
+- !private ["11UserDetails12CompanyModelC", "name"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "address"]
+- !private ["s28CustomDebugStringConvertibleP", "bs"]
+- !private ["s28CustomDebugStringConvertibleP", "catchPhrase"]
+- !private ["s28CustomDebugStringConvertibleP", "city"]
+- !private ["s28CustomDebugStringConvertibleP", "company"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "email"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "lat"]
+- !private ["s28CustomDebugStringConvertibleP", "lng"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "phone"]
+- !private ["s28CustomDebugStringConvertibleP", "street"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "suite"]
+- !private ["s28CustomDebugStringConvertibleP", "userName"]
+- !private ["s28CustomDebugStringConvertibleP", "website"]
+- !private ["s28CustomDebugStringConvertibleP", "zipCode"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "address"]
+- !private ["s23CustomStringConvertibleP", "bs"]
+- !private ["s23CustomStringConvertibleP", "catchPhrase"]
+- !private ["s23CustomStringConvertibleP", "city"]
+- !private ["s23CustomStringConvertibleP", "company"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "email"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "lat"]
+- !private ["s23CustomStringConvertibleP", "lng"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "phone"]
+- !private ["s23CustomStringConvertibleP", "street"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "suite"]
+- !private ["s23CustomStringConvertibleP", "userName"]
+- !private ["s23CustomStringConvertibleP", "website"]
+- !private ["s23CustomStringConvertibleP", "zipCode"]
+- !private ["Se", "Address"]
+- !private ["Se", "Company"]
+- !private ["Se", "Location"]
+- ["Se", ""]
+- !private ["Se", "address"]
+- !private ["Se", "bs"]
+- !private ["Se", "catchPhrase"]
+- !private ["Se", "city"]
+- !private ["Se", "company"]
+- !private ["Se", "email"]
+- ["Se", "encode"]
+- !private ["Se", "geo"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "lat"]
+- !private ["Se", "lng"]
+- !private ["Se", "name"]
+- !private ["Se", "phone"]
+- !private ["Se", "street"]
+- !private ["Se", "suite"]
+- !private ["Se", "username"]
+- !private ["Se", "website"]
+- !private ["Se", "zipcode"]
+- !private ["s7DecoderP", "container"]
+- !private ["SE", "Address"]
+- !private ["SE", "Company"]
+- !private ["SE", "Location"]
+- ["SE", ""]
+- !private ["SE", "address"]
+- !private ["SE", "bs"]
+- !private ["SE", "catchPhrase"]
+- !private ["SE", "city"]
+- !private ["SE", "company"]
+- !private ["SE", "email"]
+- ["SE", "encode"]
+- !private ["SE", "geo"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "lat"]
+- !private ["SE", "lng"]
+- !private ["SE", "name"]
+- !private ["SE", "phone"]
+- !private ["SE", "street"]
+- !private ["SE", "suite"]
+- !private ["SE", "username"]
+- !private ["SE", "website"]
+- !private ["SE", "zipcode"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "address"]
+- !private ["SQ", "bs"]
+- !private ["SQ", "catchPhrase"]
+- !private ["SQ", "city"]
+- !private ["SQ", "company"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "email"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "lat"]
+- !private ["SQ", "lng"]
+- !private ["SQ", "location"]
+- !private ["SQ", "name"]
+- !private ["SQ", "phone"]
+- !private ["SQ", "street"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "suite"]
+- !private ["SQ", "userName"]
+- !private ["SQ", "website"]
+- !private ["SQ", "zipCode"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "address"]
+- !private ["SH", "bs"]
+- !private ["SH", "catchPhrase"]
+- !private ["SH", "city"]
+- !private ["SH", "company"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "email"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "lat"]
+- !private ["SH", "lng"]
+- !private ["SH", "location"]
+- !private ["SH", "name"]
+- !private ["SH", "phone"]
+- !private ["SH", "street"]
+- ["SH", "stringValue"]
+- !private ["SH", "suite"]
+- !private ["SH", "userName"]
+- !private ["SH", "website"]
+- !private ["SH", "zipCode"]
+- !private ["s6HasherV", "combine"]
+- !private ["s12IdentifiableP", "address"]
+- !private ["s12IdentifiableP", "bs"]
+- !private ["s12IdentifiableP", "catchPhrase"]
+- !private ["s12IdentifiableP", "city"]
+- !private ["s12IdentifiableP", "company"]
+- !private ["s12IdentifiableP", "email"]
+- !private ["s12IdentifiableP", "id"]
+- !private ["s12IdentifiableP", "lat"]
+- !private ["s12IdentifiableP", "lng"]
+- !private ["s12IdentifiableP", "location"]
+- !private ["s12IdentifiableP", "name"]
+- !private ["s12IdentifiableP", "phone"]
+- !private ["s12IdentifiableP", "street"]
+- !private ["s12IdentifiableP", "suite"]
+- !private ["s12IdentifiableP", "userName"]
+- !private ["s12IdentifiableP", "website"]
+- !private ["s12IdentifiableP", "zipCode"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["11UserDetails8LocationC", "CodingKeys"]
+- ["11UserDetails8LocationC", "LocationModel"]
+- ["11UserDetails8LocationC", "String"]
+- ["11UserDetails8LocationC", ""]
+- ["11UserDetails8LocationC", "deinit"]
+- ["11UserDetails8LocationC", "encode"]
+- ["11UserDetails8LocationC", "init"]
+- ["11UserDetails8LocationC", "lat"]
+- ["11UserDetails8LocationC", "lng"]
+- !private ["11UserDetails13LocationModelC", "lat"]
+- !private ["11UserDetails13LocationModelC", "lng"]
+- !private ["So20NSFetchRequestResultP", "address"]
+- !private ["So20NSFetchRequestResultP", "bs"]
+- !private ["So20NSFetchRequestResultP", "catchPhrase"]
+- !private ["So20NSFetchRequestResultP", "city"]
+- !private ["So20NSFetchRequestResultP", "company"]
+- !private ["So20NSFetchRequestResultP", "email"]
+- !private ["So20NSFetchRequestResultP", "id"]
+- !private ["So20NSFetchRequestResultP", "lat"]
+- !private ["So20NSFetchRequestResultP", "lng"]
+- !private ["So20NSFetchRequestResultP", "location"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So20NSFetchRequestResultP", "phone"]
+- !private ["So20NSFetchRequestResultP", "street"]
+- !private ["So20NSFetchRequestResultP", "suite"]
+- !private ["So20NSFetchRequestResultP", "userName"]
+- !private ["So20NSFetchRequestResultP", "website"]
+- !private ["So20NSFetchRequestResultP", "zipCode"]
+- ["So15NSManagedObjectC", ""]
+- !private ["So15NSManagedObjectC", "address"]
+- !private ["So15NSManagedObjectC", "bs"]
+- !private ["So15NSManagedObjectC", "catchPhrase"]
+- !private ["So15NSManagedObjectC", "city"]
+- !private ["So15NSManagedObjectC", "company"]
+- !private ["So15NSManagedObjectC", "email"]
+- !private ["So15NSManagedObjectC", "id"]
+- !private ["So15NSManagedObjectC", "lat"]
+- !private ["So15NSManagedObjectC", "lng"]
+- !private ["So15NSManagedObjectC", "location"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So15NSManagedObjectC", "phone"]
+- !private ["So15NSManagedObjectC", "street"]
+- !private ["So15NSManagedObjectC", "suite"]
+- !private ["So15NSManagedObjectC", "userName"]
+- !private ["So15NSManagedObjectC", "website"]
+- !private ["So15NSManagedObjectC", "zipCode"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "address"]
+- !private ["So8NSObjectC", "bs"]
+- !private ["So8NSObjectC", "catchPhrase"]
+- !private ["So8NSObjectC", "city"]
+- !private ["So8NSObjectC", "company"]
+- !private ["So8NSObjectC", "email"]
+- !private ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "lat"]
+- !private ["So8NSObjectC", "lng"]
+- !private ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "phone"]
+- !private ["So8NSObjectC", "street"]
+- !private ["So8NSObjectC", "suite"]
+- !private ["So8NSObjectC", "userName"]
+- !private ["So8NSObjectC", "website"]
+- !private ["So8NSObjectC", "zipCode"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "address"]
+- !private ["So8NSObjectP", "bs"]
+- !private ["So8NSObjectP", "catchPhrase"]
+- !private ["So8NSObjectP", "city"]
+- !private ["So8NSObjectP", "company"]
+- !private ["So8NSObjectP", "email"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "lat"]
+- !private ["So8NSObjectP", "lng"]
+- !private ["So8NSObjectP", "location"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "phone"]
+- !private ["So8NSObjectP", "street"]
+- !private ["So8NSObjectP", "suite"]
+- !private ["So8NSObjectP", "userName"]
+- !private ["So8NSObjectP", "website"]
+- !private ["So8NSObjectP", "zipCode"]
+- !private ["7Combine16ObservableObjectP", "address"]
+- !private ["7Combine16ObservableObjectP", "bs"]
+- !private ["7Combine16ObservableObjectP", "catchPhrase"]
+- !private ["7Combine16ObservableObjectP", "city"]
+- !private ["7Combine16ObservableObjectP", "company"]
+- !private ["7Combine16ObservableObjectP", "email"]
+- !private ["7Combine16ObservableObjectP", "id"]
+- !private ["7Combine16ObservableObjectP", "lat"]
+- !private ["7Combine16ObservableObjectP", "lng"]
+- !private ["7Combine16ObservableObjectP", "location"]
+- !private ["7Combine16ObservableObjectP", "name"]
+- !private ["7Combine16ObservableObjectP", "phone"]
+- !private ["7Combine16ObservableObjectP", "street"]
+- !private ["7Combine16ObservableObjectP", "suite"]
+- !private ["7Combine16ObservableObjectP", "userName"]
+- !private ["7Combine16ObservableObjectP", "website"]
+- !private ["7Combine16ObservableObjectP", "zipCode"]
+- ["11UserDetails0A0C", "Address"]
+- ["11UserDetails0A0C", "CodingKeys"]
+- ["11UserDetails0A0C", "Company"]
+- ["11UserDetails0A0C", "Int32"]
+- ["11UserDetails0A0C", "String"]
+- ["11UserDetails0A0C", "UserModel"]
+- ["11UserDetails0A0C", ""]
+- ["11UserDetails0A0C", "address"]
+- ["11UserDetails0A0C", "company"]
+- ["11UserDetails0A0C", "deinit"]
+- ["11UserDetails0A0C", "email"]
+- ["11UserDetails0A0C", "encode"]
+- ["11UserDetails0A0C", "id"]
+- ["11UserDetails0A0C", "init"]
+- ["11UserDetails0A0C", "name"]
+- ["11UserDetails0A0C", "phone"]
+- ["11UserDetails0A0C", "username"]
+- ["11UserDetails0A0C", "website"]
+- !private ["11UserDetails0A5ModelC", ""]
+- !private ["11UserDetails0A5ModelC", "address"]
+- !private ["11UserDetails0A5ModelC", "company"]
+- !private ["11UserDetails0A5ModelC", "email"]
+- !private ["11UserDetails0A5ModelC", "id"]
+- !private ["11UserDetails0A5ModelC", "name"]
+- !private ["11UserDetails0A5ModelC", "phone"]
+- !private ["11UserDetails0A5ModelC", "userName"]
+- !private ["11UserDetails0A5ModelC", "website"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "address"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bs"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "catchPhrase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "city"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "company"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lng"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "street"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "suite"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "website"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zipCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "address"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bs"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "catchPhrase"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "city"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "company"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "email"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lng"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "location"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "phone"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "street"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "suite"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "website"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "zipCode"]
+depends-nominal:
+- "11UserDetails7AddressC"
+- !private "11UserDetails12AddressModelC"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "11UserDetails7CompanyC"
+- !private "11UserDetails12CompanyModelC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "s12IdentifiableP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "11UserDetails8LocationC"
+- !private "11UserDetails13LocationModelC"
+- !private "So20NSFetchRequestResultP"
+- "So15NSManagedObjectC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7Combine16ObservableObjectP"
+- "11UserDetails0A0C"
+- !private "11UserDetails0A5ModelC"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f51961875adaae8e45d360b049e0f186"

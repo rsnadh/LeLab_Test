@@ -1,0 +1,628 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserDetailsViewController"
+provides-nominal:
+- "11UserDetails0aB14ViewControllerC"
+provides-member:
+- ["11UserDetails0aB14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "bsLabel"
+- "catchPhraseLabel"
+- "cityLabel"
+- "companyNameLabel"
+- "emailLabel"
+- "nameLabel"
+- "phoneLabel"
+- "setUpUserDetails"
+- "streetLabel"
+- "suitLabel"
+- "user"
+- "userNameLabel"
+- "viewDidLoad"
+- "websiteLabel"
+- "zipcodeLabel"
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- !private "StringLiteralType"
+- "UILabel"
+- "UIViewController"
+- "User"
+- "UserDetailsViewController"
+- !private "bsLabel"
+- !private "catchPhraseLabel"
+- !private "cityLabel"
+- !private "companyNameLabel"
+- !private "emailLabel"
+- !private "nameLabel"
+- !private "phoneLabel"
+- !private "setUpUserDetails"
+- !private "streetLabel"
+- !private "suitLabel"
+- !private "user"
+- !private "userNameLabel"
+- !private "websiteLabel"
+- !private "zipcodeLabel"
+depends-member:
+- !private ["11UserDetails7AddressC", "city"]
+- !private ["11UserDetails7AddressC", "street"]
+- !private ["11UserDetails7AddressC", "suite"]
+- !private ["11UserDetails7AddressC", "zipcode"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "bsLabel"]
+- !private ["s7CVarArgP", "catchPhraseLabel"]
+- !private ["s7CVarArgP", "cityLabel"]
+- !private ["s7CVarArgP", "companyNameLabel"]
+- !private ["s7CVarArgP", "emailLabel"]
+- !private ["s7CVarArgP", "nameLabel"]
+- !private ["s7CVarArgP", "phoneLabel"]
+- !private ["s7CVarArgP", "setUpUserDetails"]
+- !private ["s7CVarArgP", "streetLabel"]
+- !private ["s7CVarArgP", "suitLabel"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "user"]
+- !private ["s7CVarArgP", "userNameLabel"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "websiteLabel"]
+- !private ["s7CVarArgP", "zipcodeLabel"]
+- !private ["11UserDetails7CompanyC", "bs"]
+- !private ["11UserDetails7CompanyC", "catchPhrase"]
+- !private ["11UserDetails7CompanyC", "name"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "bsLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "catchPhraseLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "cityLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "companyNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "emailLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "nameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "phoneLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "setUpUserDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "streetLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "suitLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "user"]
+- !private ["s28CustomDebugStringConvertibleP", "userNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "websiteLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "zipcodeLabel"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "bsLabel"]
+- !private ["s23CustomStringConvertibleP", "catchPhraseLabel"]
+- !private ["s23CustomStringConvertibleP", "cityLabel"]
+- !private ["s23CustomStringConvertibleP", "companyNameLabel"]
+- !private ["s23CustomStringConvertibleP", "emailLabel"]
+- !private ["s23CustomStringConvertibleP", "nameLabel"]
+- !private ["s23CustomStringConvertibleP", "phoneLabel"]
+- !private ["s23CustomStringConvertibleP", "setUpUserDetails"]
+- !private ["s23CustomStringConvertibleP", "streetLabel"]
+- !private ["s23CustomStringConvertibleP", "suitLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "user"]
+- !private ["s23CustomStringConvertibleP", "userNameLabel"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "websiteLabel"]
+- !private ["s23CustomStringConvertibleP", "zipcodeLabel"]
+- !private ["Se", "address"]
+- !private ["Se", "bs"]
+- !private ["Se", "catchPhrase"]
+- !private ["Se", "city"]
+- !private ["Se", "company"]
+- !private ["Se", "email"]
+- !private ["Se", "name"]
+- !private ["Se", "phone"]
+- !private ["Se", "street"]
+- !private ["Se", "suite"]
+- !private ["Se", "text"]
+- !private ["Se", "username"]
+- !private ["Se", "website"]
+- !private ["Se", "zipcode"]
+- !private ["SE", "address"]
+- !private ["SE", "bs"]
+- !private ["SE", "catchPhrase"]
+- !private ["SE", "city"]
+- !private ["SE", "company"]
+- !private ["SE", "email"]
+- !private ["SE", "name"]
+- !private ["SE", "phone"]
+- !private ["SE", "street"]
+- !private ["SE", "suite"]
+- !private ["SE", "text"]
+- !private ["SE", "username"]
+- !private ["SE", "website"]
+- !private ["SE", "zipcode"]
+- ["SQ", ""]
+- !private ["SQ", "bsLabel"]
+- !private ["SQ", "catchPhraseLabel"]
+- !private ["SQ", "cityLabel"]
+- !private ["SQ", "companyNameLabel"]
+- !private ["SQ", "emailLabel"]
+- !private ["SQ", "nameLabel"]
+- !private ["SQ", "phoneLabel"]
+- !private ["SQ", "setUpUserDetails"]
+- !private ["SQ", "streetLabel"]
+- !private ["SQ", "suitLabel"]
+- !private ["SQ", "text"]
+- !private ["SQ", "title"]
+- !private ["SQ", "user"]
+- !private ["SQ", "userNameLabel"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "websiteLabel"]
+- !private ["SQ", "zipcodeLabel"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- ["SH", ""]
+- !private ["SH", "bsLabel"]
+- !private ["SH", "catchPhraseLabel"]
+- !private ["SH", "cityLabel"]
+- !private ["SH", "companyNameLabel"]
+- !private ["SH", "emailLabel"]
+- !private ["SH", "nameLabel"]
+- !private ["SH", "phoneLabel"]
+- !private ["SH", "setUpUserDetails"]
+- !private ["SH", "streetLabel"]
+- !private ["SH", "suitLabel"]
+- !private ["SH", "text"]
+- !private ["SH", "title"]
+- !private ["SH", "user"]
+- !private ["SH", "userNameLabel"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "websiteLabel"]
+- !private ["SH", "zipcodeLabel"]
+- ["So8NSCodingP", "UILabel"]
+- ["So8NSCodingP", "User"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "bsLabel"]
+- ["So8NSCodingP", "catchPhraseLabel"]
+- ["So8NSCodingP", "cityLabel"]
+- ["So8NSCodingP", "companyNameLabel"]
+- ["So8NSCodingP", "emailLabel"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "nameLabel"]
+- ["So8NSCodingP", "phoneLabel"]
+- ["So8NSCodingP", "setUpUserDetails"]
+- ["So8NSCodingP", "streetLabel"]
+- ["So8NSCodingP", "suitLabel"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "title"]
+- ["So8NSCodingP", "user"]
+- ["So8NSCodingP", "userNameLabel"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "websiteLabel"]
+- ["So8NSCodingP", "zipcodeLabel"]
+- ["So26NSExtensionRequestHandlingP", "UILabel"]
+- ["So26NSExtensionRequestHandlingP", "User"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "bsLabel"]
+- ["So26NSExtensionRequestHandlingP", "catchPhraseLabel"]
+- ["So26NSExtensionRequestHandlingP", "cityLabel"]
+- ["So26NSExtensionRequestHandlingP", "companyNameLabel"]
+- ["So26NSExtensionRequestHandlingP", "emailLabel"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "nameLabel"]
+- ["So26NSExtensionRequestHandlingP", "phoneLabel"]
+- ["So26NSExtensionRequestHandlingP", "setUpUserDetails"]
+- ["So26NSExtensionRequestHandlingP", "streetLabel"]
+- ["So26NSExtensionRequestHandlingP", "suitLabel"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- ["So26NSExtensionRequestHandlingP", "user"]
+- ["So26NSExtensionRequestHandlingP", "userNameLabel"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "websiteLabel"]
+- ["So26NSExtensionRequestHandlingP", "zipcodeLabel"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "User"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "bsLabel"]
+- ["So8NSObjectC", "catchPhraseLabel"]
+- ["So8NSObjectC", "cityLabel"]
+- ["So8NSObjectC", "companyNameLabel"]
+- ["So8NSObjectC", "emailLabel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "nameLabel"]
+- ["So8NSObjectC", "phoneLabel"]
+- ["So8NSObjectC", "setUpUserDetails"]
+- ["So8NSObjectC", "streetLabel"]
+- ["So8NSObjectC", "suitLabel"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "user"]
+- ["So8NSObjectC", "userNameLabel"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "websiteLabel"]
+- ["So8NSObjectC", "zipcodeLabel"]
+- ["So8NSObjectP", "UILabel"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "bsLabel"]
+- ["So8NSObjectP", "catchPhraseLabel"]
+- ["So8NSObjectP", "cityLabel"]
+- ["So8NSObjectP", "companyNameLabel"]
+- ["So8NSObjectP", "emailLabel"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "nameLabel"]
+- ["So8NSObjectP", "phoneLabel"]
+- ["So8NSObjectP", "setUpUserDetails"]
+- ["So8NSObjectP", "streetLabel"]
+- ["So8NSObjectP", "suitLabel"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "title"]
+- ["So8NSObjectP", "user"]
+- ["So8NSObjectP", "userNameLabel"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "websiteLabel"]
+- ["So8NSObjectP", "zipcodeLabel"]
+- !private ["Sq", "text"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- ["So21UIAppearanceContainerP", "User"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "bsLabel"]
+- ["So21UIAppearanceContainerP", "catchPhraseLabel"]
+- ["So21UIAppearanceContainerP", "cityLabel"]
+- ["So21UIAppearanceContainerP", "companyNameLabel"]
+- ["So21UIAppearanceContainerP", "emailLabel"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "nameLabel"]
+- ["So21UIAppearanceContainerP", "phoneLabel"]
+- ["So21UIAppearanceContainerP", "setUpUserDetails"]
+- ["So21UIAppearanceContainerP", "streetLabel"]
+- ["So21UIAppearanceContainerP", "suitLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- ["So21UIAppearanceContainerP", "user"]
+- ["So21UIAppearanceContainerP", "userNameLabel"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "websiteLabel"]
+- ["So21UIAppearanceContainerP", "zipcodeLabel"]
+- ["So18UIContentContainerP", "UILabel"]
+- ["So18UIContentContainerP", "User"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "bsLabel"]
+- ["So18UIContentContainerP", "catchPhraseLabel"]
+- ["So18UIContentContainerP", "cityLabel"]
+- ["So18UIContentContainerP", "companyNameLabel"]
+- ["So18UIContentContainerP", "emailLabel"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "nameLabel"]
+- ["So18UIContentContainerP", "phoneLabel"]
+- ["So18UIContentContainerP", "setUpUserDetails"]
+- ["So18UIContentContainerP", "streetLabel"]
+- ["So18UIContentContainerP", "suitLabel"]
+- !private ["So18UIContentContainerP", "title"]
+- ["So18UIContentContainerP", "user"]
+- ["So18UIContentContainerP", "userNameLabel"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "websiteLabel"]
+- ["So18UIContentContainerP", "zipcodeLabel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- ["So18UIFocusEnvironmentP", "User"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "bsLabel"]
+- ["So18UIFocusEnvironmentP", "catchPhraseLabel"]
+- ["So18UIFocusEnvironmentP", "cityLabel"]
+- ["So18UIFocusEnvironmentP", "companyNameLabel"]
+- ["So18UIFocusEnvironmentP", "emailLabel"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "nameLabel"]
+- ["So18UIFocusEnvironmentP", "phoneLabel"]
+- ["So18UIFocusEnvironmentP", "setUpUserDetails"]
+- ["So18UIFocusEnvironmentP", "streetLabel"]
+- ["So18UIFocusEnvironmentP", "suitLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- ["So18UIFocusEnvironmentP", "user"]
+- ["So18UIFocusEnvironmentP", "userNameLabel"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "websiteLabel"]
+- ["So18UIFocusEnvironmentP", "zipcodeLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- ["So30UIPasteConfigurationSupportingP", "User"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "bsLabel"]
+- ["So30UIPasteConfigurationSupportingP", "catchPhraseLabel"]
+- ["So30UIPasteConfigurationSupportingP", "cityLabel"]
+- ["So30UIPasteConfigurationSupportingP", "companyNameLabel"]
+- ["So30UIPasteConfigurationSupportingP", "emailLabel"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "nameLabel"]
+- ["So30UIPasteConfigurationSupportingP", "phoneLabel"]
+- ["So30UIPasteConfigurationSupportingP", "setUpUserDetails"]
+- ["So30UIPasteConfigurationSupportingP", "streetLabel"]
+- ["So30UIPasteConfigurationSupportingP", "suitLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- ["So30UIPasteConfigurationSupportingP", "user"]
+- ["So30UIPasteConfigurationSupportingP", "userNameLabel"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "websiteLabel"]
+- ["So30UIPasteConfigurationSupportingP", "zipcodeLabel"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "User"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "bsLabel"]
+- ["So11UIResponderC", "catchPhraseLabel"]
+- ["So11UIResponderC", "cityLabel"]
+- ["So11UIResponderC", "companyNameLabel"]
+- ["So11UIResponderC", "emailLabel"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nameLabel"]
+- ["So11UIResponderC", "phoneLabel"]
+- ["So11UIResponderC", "setUpUserDetails"]
+- ["So11UIResponderC", "streetLabel"]
+- ["So11UIResponderC", "suitLabel"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "title"]
+- ["So11UIResponderC", "user"]
+- ["So11UIResponderC", "userNameLabel"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "websiteLabel"]
+- ["So11UIResponderC", "zipcodeLabel"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- ["So30UIResponderStandardEditActionsP", "User"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "bsLabel"]
+- ["So30UIResponderStandardEditActionsP", "catchPhraseLabel"]
+- ["So30UIResponderStandardEditActionsP", "cityLabel"]
+- ["So30UIResponderStandardEditActionsP", "companyNameLabel"]
+- ["So30UIResponderStandardEditActionsP", "emailLabel"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "nameLabel"]
+- ["So30UIResponderStandardEditActionsP", "phoneLabel"]
+- ["So30UIResponderStandardEditActionsP", "setUpUserDetails"]
+- ["So30UIResponderStandardEditActionsP", "streetLabel"]
+- ["So30UIResponderStandardEditActionsP", "suitLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- ["So30UIResponderStandardEditActionsP", "user"]
+- ["So30UIResponderStandardEditActionsP", "userNameLabel"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "websiteLabel"]
+- ["So30UIResponderStandardEditActionsP", "zipcodeLabel"]
+- ["So16UIStateRestoringP", "UILabel"]
+- ["So16UIStateRestoringP", "User"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "bsLabel"]
+- ["So16UIStateRestoringP", "catchPhraseLabel"]
+- ["So16UIStateRestoringP", "cityLabel"]
+- ["So16UIStateRestoringP", "companyNameLabel"]
+- ["So16UIStateRestoringP", "emailLabel"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "nameLabel"]
+- ["So16UIStateRestoringP", "phoneLabel"]
+- ["So16UIStateRestoringP", "setUpUserDetails"]
+- ["So16UIStateRestoringP", "streetLabel"]
+- ["So16UIStateRestoringP", "suitLabel"]
+- !private ["So16UIStateRestoringP", "title"]
+- ["So16UIStateRestoringP", "user"]
+- ["So16UIStateRestoringP", "userNameLabel"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "websiteLabel"]
+- ["So16UIStateRestoringP", "zipcodeLabel"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- ["So18UITraitEnvironmentP", "User"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "bsLabel"]
+- ["So18UITraitEnvironmentP", "catchPhraseLabel"]
+- ["So18UITraitEnvironmentP", "cityLabel"]
+- ["So18UITraitEnvironmentP", "companyNameLabel"]
+- ["So18UITraitEnvironmentP", "emailLabel"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "nameLabel"]
+- ["So18UITraitEnvironmentP", "phoneLabel"]
+- ["So18UITraitEnvironmentP", "setUpUserDetails"]
+- ["So18UITraitEnvironmentP", "streetLabel"]
+- ["So18UITraitEnvironmentP", "suitLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- ["So18UITraitEnvironmentP", "user"]
+- ["So18UITraitEnvironmentP", "userNameLabel"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "websiteLabel"]
+- ["So18UITraitEnvironmentP", "zipcodeLabel"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- ["So23UIUserActivityRestoringP", "User"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "bsLabel"]
+- ["So23UIUserActivityRestoringP", "catchPhraseLabel"]
+- ["So23UIUserActivityRestoringP", "cityLabel"]
+- ["So23UIUserActivityRestoringP", "companyNameLabel"]
+- ["So23UIUserActivityRestoringP", "emailLabel"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "nameLabel"]
+- ["So23UIUserActivityRestoringP", "phoneLabel"]
+- ["So23UIUserActivityRestoringP", "setUpUserDetails"]
+- ["So23UIUserActivityRestoringP", "streetLabel"]
+- ["So23UIUserActivityRestoringP", "suitLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- ["So23UIUserActivityRestoringP", "user"]
+- ["So23UIUserActivityRestoringP", "userNameLabel"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "websiteLabel"]
+- ["So23UIUserActivityRestoringP", "zipcodeLabel"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "User"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "bsLabel"]
+- ["So16UIViewControllerC", "catchPhraseLabel"]
+- ["So16UIViewControllerC", "cityLabel"]
+- ["So16UIViewControllerC", "companyNameLabel"]
+- ["So16UIViewControllerC", "emailLabel"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nameLabel"]
+- ["So16UIViewControllerC", "phoneLabel"]
+- ["So16UIViewControllerC", "setUpUserDetails"]
+- ["So16UIViewControllerC", "streetLabel"]
+- ["So16UIViewControllerC", "suitLabel"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "user"]
+- ["So16UIViewControllerC", "userNameLabel"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "websiteLabel"]
+- ["So16UIViewControllerC", "zipcodeLabel"]
+- !private ["11UserDetails0A0C", "address"]
+- !private ["11UserDetails0A0C", "company"]
+- !private ["11UserDetails0A0C", "email"]
+- !private ["11UserDetails0A0C", "name"]
+- !private ["11UserDetails0A0C", "phone"]
+- !private ["11UserDetails0A0C", "username"]
+- !private ["11UserDetails0A0C", "website"]
+- ["11UserDetails0aB14ViewControllerC", "UILabel"]
+- ["11UserDetails0aB14ViewControllerC", "User"]
+- ["11UserDetails0aB14ViewControllerC", ""]
+- ["11UserDetails0aB14ViewControllerC", "bsLabel"]
+- ["11UserDetails0aB14ViewControllerC", "catchPhraseLabel"]
+- ["11UserDetails0aB14ViewControllerC", "cityLabel"]
+- ["11UserDetails0aB14ViewControllerC", "companyNameLabel"]
+- ["11UserDetails0aB14ViewControllerC", "deinit"]
+- ["11UserDetails0aB14ViewControllerC", "emailLabel"]
+- ["11UserDetails0aB14ViewControllerC", "init"]
+- ["11UserDetails0aB14ViewControllerC", "nameLabel"]
+- ["11UserDetails0aB14ViewControllerC", "phoneLabel"]
+- ["11UserDetails0aB14ViewControllerC", "setUpUserDetails"]
+- ["11UserDetails0aB14ViewControllerC", "streetLabel"]
+- ["11UserDetails0aB14ViewControllerC", "suitLabel"]
+- !private ["11UserDetails0aB14ViewControllerC", "title"]
+- ["11UserDetails0aB14ViewControllerC", "user"]
+- ["11UserDetails0aB14ViewControllerC", "userNameLabel"]
+- ["11UserDetails0aB14ViewControllerC", "viewDidLoad"]
+- ["11UserDetails0aB14ViewControllerC", "websiteLabel"]
+- ["11UserDetails0aB14ViewControllerC", "zipcodeLabel"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bsLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "catchPhraseLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cityLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "companyNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emailLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "phoneLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUpUserDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "streetLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "suitLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "user"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "websiteLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "zipcodeLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bsLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "catchPhraseLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cityLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "companyNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emailLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "phoneLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setUpUserDetails"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "streetLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "suitLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "user"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "websiteLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "zipcodeLabel"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+depends-nominal:
+- !private "11UserDetails7AddressC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "11UserDetails7CompanyC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "11UserDetails0A0C"
+- "11UserDetails0aB14ViewControllerC"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mac/Desktop/UserDetails/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2254cbc02ef4697a74439d86d254b3f9"
